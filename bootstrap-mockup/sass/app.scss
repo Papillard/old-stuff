@@ -1,0 +1,16 @@
+@import "banner";
+@import "footer";
+
+// General style of your website
+$body-bg: #F0F1F5;
+$body-color: rgb(20, 20, 20);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: $body-bg;
+  color: $body-color;
+}
+
+.spacer{
+  height: 5em;
+}

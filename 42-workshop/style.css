@@ -1,0 +1,64 @@
+/* style.css */
+body{
+  margin: 0px;
+  color: rgb(42, 42, 42);
+  background: rgb(245,245,245);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #0083F5;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#banner {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  padding: 150px 0;
+}
+
+#banner p {
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 1px 1px 2px #707070;
+}
+
+#banner h1 {
+  font-size: 3em;
+  color: #EA4A3C;
+}
+
+.padded {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.bg-white {
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.social-list > li > a{
+  font-size: 2em;
+  color: #0083F5;
+  transition: color 0.4s ease;
+}
+
+.social-list > li > a:hover{
+  color: red;
+}
+
+
+#footer{
+  color: white;
+  background: #373737;
+  padding: 50px 0;
+}
+
+

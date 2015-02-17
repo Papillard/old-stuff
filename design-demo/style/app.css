@@ -1,0 +1,86 @@
+.banner{
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.black-bg{
+  background-color: #191919;
+  color: #f4f4f4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.black-bg a {
+  font-family: 'Droid Serif', serif;
+  color: #0083F5;
+  font-size: 25px;
+}
+
+.black-bg a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.vertical-spacer{
+  height: 6em;
+}
+
+
+.btn-red{
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+}
+
+.btn-red:hover{
+  background-color: orange;
+  color: white;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature{
+  font-weight: 300;
+}
+
+.feature img {
+  width: 150px;
+  background: #204156;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.feature img:hover {
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

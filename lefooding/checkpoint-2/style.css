@@ -1,0 +1,44 @@
+/*Here goes your style*/
+body{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(245,245,245);
+}
+
+h1{
+  font-family: courier;
+  color: rgb(212,57,43);
+}
+
+p{
+  font-size: 14px;
+  line-height: 17px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+div{
+  background: white;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 30px;
+}
+
+#fooding-bar{
+  background: black;
+  color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#fooding-bar h1{
+  color: white;
+}
+
+.adress{
+  opacity: 0.4;
+}

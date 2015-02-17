@@ -1,0 +1,21 @@
+// Set your footer style
+$footer-padding: 30px;
+$footer-bg: rgb(20, 20, 20);
+$footer-color: rgb(220, 220, 220);
+$footer-links-hover-color: red;
+
+#footer{
+  background: $footer-bg;
+  padding: $footer-padding 0;
+  color: $footer-color;
+  a {
+    color: $footer-color;
+    font-size: 30px;
+    letter-spacing: 20px;
+    transition: color 0.5s ease;
+  }
+
+  a:hover{
+    color: $footer-links-hover-color;
+  }
+}

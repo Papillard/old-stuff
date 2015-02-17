@@ -1,0 +1,1 @@
+sass -w scss:css --load-path "$(bundle show bootstrap-sass)/assets/stylesheets"

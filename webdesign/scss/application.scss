@@ -1,0 +1,17 @@
+$btn-primary-bg: #FF5A5F;
+$body-bg: #F0F1F5;
+
+@import "bootstrap";
+@import "navbar";
+@import "navbar-changed";
+@import "footer";
+@import "banner";
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.spacer{
+  height: 5em;
+}

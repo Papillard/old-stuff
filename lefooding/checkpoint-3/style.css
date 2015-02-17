@@ -1,0 +1,41 @@
+/*Here goes your style*/
+body{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(245,245,245);
+  /*background-image: url('example.jpg');*/
+}
+
+h1{
+  font-family: courier;
+  color: rgb(212,57,43);
+}
+
+p{
+  font-size: 14px;
+  line-height: 17px;
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+#fooding-header{
+  background: black;
+  color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#fooding-bar h1{
+  color: white;
+}
+
+.address{
+  opacity: 0.4;
+}
+
+.vertical-spacer{
+  height: 2em;
+}

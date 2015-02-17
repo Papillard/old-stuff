@@ -1,0 +1,49 @@
+.background{
+  background-image: url(../images/background.jpg);
+  color: white;
+  padding: 150px 0;
+  background-size: cover;
+}
+
+.background h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #323232;
+}
+
+.background p {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  padding: 30px;
+  box-shadow: 1px 1px 4px rgb(220, 220, 220);
+  transition: all 0.4s ease;
+  margin-bottom: 50px;
+  background: white;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.card img {
+  background: #05AC54;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+}
+
+.card:hover{
+  transform: translate(0, -10px);
+}
+
+.card:hover img {
+  background: orange;
+}
+
+.newsletter{
+  margin-top: 50px;
+}
